@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2F7766C14E48F5E009B0A29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7766B14E48F5E009B0A29 /* Cocoa.framework */; };
+		A2F7767614E48F5E009B0A29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2F7767414E48F5E009B0A29 /* InfoPlist.strings */; };
+		A2F7767814E48F5E009B0A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7767714E48F5E009B0A29 /* main.m */; };
+		A2F7767C14E48F5E009B0A29 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A2F7767A14E48F5E009B0A29 /* Credits.rtf */; };
+		A2F7767F14E48F5E009B0A29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7767E14E48F5E009B0A29 /* AppDelegate.m */; };
+		A2F7768214E48F5F009B0A29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2F7768014E48F5F009B0A29 /* MainMenu.xib */; };
+		A2F7768A14E48F5F009B0A29 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7768914E48F5F009B0A29 /* SenTestingKit.framework */; };
+		A2F7768B14E48F5F009B0A29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7766B14E48F5E009B0A29 /* Cocoa.framework */; };
+		A2F7769314E48F5F009B0A29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2F7769114E48F5F009B0A29 /* InfoPlist.strings */; };
+		A2F7769614E48F5F009B0A29 /* CocoaCal1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7769514E48F5F009B0A29 /* CocoaCal1Tests.m */; };
+		A2F776A114E48FF2009B0A29 /* UsefulCal.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F776A014E48FF2009B0A29 /* UsefulCal.m */; };
+		A2F776A414E4903A009B0A29 /* MyCal.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F776A314E4903A009B0A29 /* MyCal.m */; };
+		A2F776A714E490AE009B0A29 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F776A614E490AE009B0A29 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2F7768C14E48F5F009B0A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F7765E14E48F5E009B0A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F7766614E48F5E009B0A29;
+			remoteInfo = CocoaCal1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2F7766714E48F5E009B0A29 /* CocoaCal1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaCal1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F7766B14E48F5E009B0A29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A2F7766E14E48F5E009B0A29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A2F7766F14E48F5E009B0A29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A2F7767014E48F5E009B0A29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2F7767314E48F5E009B0A29 /* CocoaCal1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaCal1-Info.plist"; sourceTree = "<group>"; };
+		A2F7767514E48F5E009B0A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2F7767714E48F5E009B0A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2F7767914E48F5E009B0A29 /* CocoaCal1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaCal1-Prefix.pch"; sourceTree = "<group>"; };
+		A2F7767B14E48F5E009B0A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A2F7767D14E48F5E009B0A29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2F7767E14E48F5E009B0A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2F7768114E48F5F009B0A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A2F7768814E48F5F009B0A29 /* CocoaCal1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaCal1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F7768914E48F5F009B0A29 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A2F7769014E48F5F009B0A29 /* CocoaCal1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaCal1Tests-Info.plist"; sourceTree = "<group>"; };
+		A2F7769214E48F5F009B0A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2F7769414E48F5F009B0A29 /* CocoaCal1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaCal1Tests.h; sourceTree = "<group>"; };
+		A2F7769514E48F5F009B0A29 /* CocoaCal1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaCal1Tests.m; sourceTree = "<group>"; };
+		A2F7769F14E48FF2009B0A29 /* UsefulCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsefulCal.h; path = ../../Sample5/Sample5/UsefulCal.h; sourceTree = "<group>"; };
+		A2F776A014E48FF2009B0A29 /* UsefulCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsefulCal.m; path = ../../Sample5/Sample5/UsefulCal.m; sourceTree = "<group>"; };
+		A2F776A214E4903A009B0A29 /* MyCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCal.h; path = ../../Sample5/Sample5/MyCal.h; sourceTree = "<group>"; };
+		A2F776A314E4903A009B0A29 /* MyCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCal.m; path = ../../Sample5/Sample5/MyCal.m; sourceTree = "<group>"; };
+		A2F776A514E490AE009B0A29 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		A2F776A614E490AE009B0A29 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F7766414E48F5E009B0A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7766C14E48F5E009B0A29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F7768414E48F5F009B0A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7768A14E48F5F009B0A29 /* SenTestingKit.framework in Frameworks */,
+				A2F7768B14E48F5F009B0A29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2F7765C14E48F5E009B0A29 = {
+			isa = PBXGroup;
+			children = (
+				A2F7767114E48F5E009B0A29 /* CocoaCal1 */,
+				A2F7768E14E48F5F009B0A29 /* CocoaCal1Tests */,
+				A2F7766A14E48F5E009B0A29 /* Frameworks */,
+				A2F7766814E48F5E009B0A29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F7766814E48F5E009B0A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7766714E48F5E009B0A29 /* CocoaCal1.app */,
+				A2F7768814E48F5F009B0A29 /* CocoaCal1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F7766A14E48F5E009B0A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7766B14E48F5E009B0A29 /* Cocoa.framework */,
+				A2F7768914E48F5F009B0A29 /* SenTestingKit.framework */,
+				A2F7766D14E48F5E009B0A29 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F7766D14E48F5E009B0A29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7766E14E48F5E009B0A29 /* AppKit.framework */,
+				A2F7766F14E48F5E009B0A29 /* CoreData.framework */,
+				A2F7767014E48F5E009B0A29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A2F7767114E48F5E009B0A29 /* CocoaCal1 */ = {
+			isa = PBXGroup;
+			children = (
+				A2F776A214E4903A009B0A29 /* MyCal.h */,
+				A2F776A314E4903A009B0A29 /* MyCal.m */,
+				A2F7769F14E48FF2009B0A29 /* UsefulCal.h */,
+				A2F776A014E48FF2009B0A29 /* UsefulCal.m */,
+				A2F7767D14E48F5E009B0A29 /* AppDelegate.h */,
+				A2F7767E14E48F5E009B0A29 /* AppDelegate.m */,
+				A2F7768014E48F5F009B0A29 /* MainMenu.xib */,
+				A2F776A514E490AE009B0A29 /* AppController.h */,
+				A2F776A614E490AE009B0A29 /* AppController.m */,
+				A2F7767214E48F5E009B0A29 /* Supporting Files */,
+			);
+			path = CocoaCal1;
+			sourceTree = "<group>";
+		};
+		A2F7767214E48F5E009B0A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7767314E48F5E009B0A29 /* CocoaCal1-Info.plist */,
+				A2F7767414E48F5E009B0A29 /* InfoPlist.strings */,
+				A2F7767714E48F5E009B0A29 /* main.m */,
+				A2F7767914E48F5E009B0A29 /* CocoaCal1-Prefix.pch */,
+				A2F7767A14E48F5E009B0A29 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2F7768E14E48F5F009B0A29 /* CocoaCal1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7769414E48F5F009B0A29 /* CocoaCal1Tests.h */,
+				A2F7769514E48F5F009B0A29 /* CocoaCal1Tests.m */,
+				A2F7768F14E48F5F009B0A29 /* Supporting Files */,
+			);
+			path = CocoaCal1Tests;
+			sourceTree = "<group>";
+		};
+		A2F7768F14E48F5F009B0A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7769014E48F5F009B0A29 /* CocoaCal1Tests-Info.plist */,
+				A2F7769114E48F5F009B0A29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F7766614E48F5E009B0A29 /* CocoaCal1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F7769914E48F5F009B0A29 /* Build configuration list for PBXNativeTarget "CocoaCal1" */;
+			buildPhases = (
+				A2F7766314E48F5E009B0A29 /* Sources */,
+				A2F7766414E48F5E009B0A29 /* Frameworks */,
+				A2F7766514E48F5E009B0A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaCal1;
+			productName = CocoaCal1;
+			productReference = A2F7766714E48F5E009B0A29 /* CocoaCal1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2F7768714E48F5F009B0A29 /* CocoaCal1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F7769C14E48F5F009B0A29 /* Build configuration list for PBXNativeTarget "CocoaCal1Tests" */;
+			buildPhases = (
+				A2F7768314E48F5F009B0A29 /* Sources */,
+				A2F7768414E48F5F009B0A29 /* Frameworks */,
+				A2F7768514E48F5F009B0A29 /* Resources */,
+				A2F7768614E48F5F009B0A29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F7768D14E48F5F009B0A29 /* PBXTargetDependency */,
+			);
+			name = CocoaCal1Tests;
+			productName = CocoaCal1Tests;
+			productReference = A2F7768814E48F5F009B0A29 /* CocoaCal1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F7765E14E48F5E009B0A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A2F7766114E48F5E009B0A29 /* Build configuration list for PBXProject "CocoaCal1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2F7765C14E48F5E009B0A29;
+			productRefGroup = A2F7766814E48F5E009B0A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F7766614E48F5E009B0A29 /* CocoaCal1 */,
+				A2F7768714E48F5F009B0A29 /* CocoaCal1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F7766514E48F5E009B0A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7767614E48F5E009B0A29 /* InfoPlist.strings in Resources */,
+				A2F7767C14E48F5E009B0A29 /* Credits.rtf in Resources */,
+				A2F7768214E48F5F009B0A29 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F7768514E48F5F009B0A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7769314E48F5F009B0A29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2F7768614E48F5F009B0A29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F7766314E48F5E009B0A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7767814E48F5E009B0A29 /* main.m in Sources */,
+				A2F7767F14E48F5E009B0A29 /* AppDelegate.m in Sources */,
+				A2F776A114E48FF2009B0A29 /* UsefulCal.m in Sources */,
+				A2F776A414E4903A009B0A29 /* MyCal.m in Sources */,
+				A2F776A714E490AE009B0A29 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F7768314E48F5F009B0A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7769614E48F5F009B0A29 /* CocoaCal1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F7768D14E48F5F009B0A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F7766614E48F5E009B0A29 /* CocoaCal1 */;
+			targetProxy = A2F7768C14E48F5F009B0A29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2F7767414E48F5E009B0A29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F7767514E48F5E009B0A29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2F7767A14E48F5E009B0A29 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F7767B14E48F5E009B0A29 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A2F7768014E48F5F009B0A29 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F7768114E48F5F009B0A29 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A2F7769114E48F5F009B0A29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F7769214E48F5F009B0A29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F7769714E48F5F009B0A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2F7769814E48F5F009B0A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2F7769A14E48F5F009B0A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaCal1/CocoaCal1-Prefix.pch";
+				INFOPLIST_FILE = "CocoaCal1/CocoaCal1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2F7769B14E48F5F009B0A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaCal1/CocoaCal1-Prefix.pch";
+				INFOPLIST_FILE = "CocoaCal1/CocoaCal1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2F7769D14E48F5F009B0A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaCal1.app/Contents/MacOS/CocoaCal1";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaCal1/CocoaCal1-Prefix.pch";
+				INFOPLIST_FILE = "CocoaCal1Tests/CocoaCal1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2F7769E14E48F5F009B0A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaCal1.app/Contents/MacOS/CocoaCal1";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaCal1/CocoaCal1-Prefix.pch";
+				INFOPLIST_FILE = "CocoaCal1Tests/CocoaCal1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F7766114E48F5E009B0A29 /* Build configuration list for PBXProject "CocoaCal1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F7769714E48F5F009B0A29 /* Debug */,
+				A2F7769814E48F5F009B0A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F7769914E48F5F009B0A29 /* Build configuration list for PBXNativeTarget "CocoaCal1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F7769A14E48F5F009B0A29 /* Debug */,
+				A2F7769B14E48F5F009B0A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2F7769C14E48F5F009B0A29 /* Build configuration list for PBXNativeTarget "CocoaCal1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F7769D14E48F5F009B0A29 /* Debug */,
+				A2F7769E14E48F5F009B0A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2F7765E14E48F5E009B0A29 /* Project object */;
+}
